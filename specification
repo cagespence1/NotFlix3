@@ -1,0 +1,23 @@
+rest specification
+
+- movie
+	id			        get
+	tt			        get
+	title 			    get
+	publication_date 	get
+	length			    get
+	director		    get
+	description		    get
+
+- users
+	id		        	get	set
+	lastname		    get	set
+	middlename		    get	set
+	firstname		    get	set
+	username		    get	set
+	password			    set
+
+- rating
+	movie_id		    get	set	update
+	user_id				    set
+	value			    get	set	update
